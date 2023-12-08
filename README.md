@@ -1,14 +1,15 @@
-Hey, this is the Truth or Dare API. The goal of this project is to test conceptual strategies in web development.
 
-To run this project, you need to have the following specifications:
+## Sistema Proposto
 
-*   Docker
-*   Node 14 or later
+Uma empresa precisa de uma ferramenta para controlar o envio de mensagens por WhatsApp. Durante o processo de levantamento de requisitos foi possível observar que os elementos principais dessa aplicação são Contatos e Grupo. 
 
-Follow these steps to use it:
 
-1.  Run **docker-compose up -d**
-2.  Remove the **.example** from the **.env.example** file name
-3.  Run **npm install**
-4.  Run **npm run migration**
-5.  Run **npm run dev**
+## Instruções
+
+1. Acessar Projeto via Bitbucket -  
+
+2. Efetuar Clone projeto (localmente) - API feita em AdonisJS nela se encontra pronta com o model de grupos 
+
+3. Validar Acesso Banco de Dados conforme credenciais de acesso abaixo 
+
+4. Ao final do processo de Desenvolvimento, publicar projeto Github ou Bitbucket e disponilizar link do projeto e documentação 
