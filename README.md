@@ -6,7 +6,7 @@ Uma empresa precisa de uma ferramenta para controlar o envio de mensagens por Wh
 
 ## Instruções
 
-1. Acessar Projeto via Bitbucket -  
+1. Acessar Projeto via Bitbucket
 
 2. Efetuar Clone projeto (localmente) - API feita em AdonisJS nela se encontra pronta com o model de grupos 
 
