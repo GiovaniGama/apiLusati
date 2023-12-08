@@ -18,7 +18,7 @@ export default class Group extends BaseModel {
   public updatedAt: DateTime
   
   static get table() {
-    return 'groupocontatos'
+    return 'grupocontatos'
   }
   
 }
