@@ -49,6 +49,27 @@ export default class ContactsController{
         return contact
     }
 
+    public async update({ params, request, response }: HttpContextContract) {
+
+        const contactData = await request.validate(ContactsValidator)
+    
+        const contact = await Contacts.findOrFail(params.id)
+    
+        contact.dsContato = contactData.dsContato
+
+        contact.nrCelular = contactData.nrCelular
+
+        contact.dsEmail = contactData.dsEmail
+    
+        contact.stAtivo = contactData.stAtivo
+    
+        await contact.save()
+    
+        response.status(201);
+    
+        return contact
+    }
+
     public async show({ params }: HttpContextContract) {
 
         const contacts = await Contacts.findOrFail(params.id)

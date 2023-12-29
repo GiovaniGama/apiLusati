@@ -1,15 +1,50 @@
+<div>
+    <summary><h3>Projeto de Gerenciar Contatos</h3></summary>
+    <br />  
+    <summary><h3>O que é o projeto?</h3></summary>
+    <br />
+    <div>
+        <p>
+            O projeto é um crud simples que faz o gerenciamento de contatos, ele salva, cria, edita e deleta seus contatos.
+        </p>
+    </div>
+    <br />
+</div>
 
-## Sistema Proposto
+## Tecnologias utilizadas 
+- [Node](https://nodejs.org/en/)
+- [Adonis](https://adonisjs.com/)
+- [Typescript](https://www.typescriptlang.org/)
 
-Uma empresa precisa de uma ferramenta para controlar o envio de mensagens por WhatsApp. Durante o processo de levantamento de requisitos foi possível observar que os elementos principais dessa aplicação são Contatos e Grupo. 
+## Como executar a aplicação 
+### Pré-requisitos
+* Node: Siga os passos da instalação no [site oficial](https://nodejs.org/en/download/)
+
+### Instalação
+1. Clone o repositório
+```bash
+git clone https://github.com/GiovaniGama/apiLusati.git
+```
+2. Acesse a pasta do projeto
+```bash
+cd api-test
+```
+3. Na raiz do projeto crie um .env e adicone as variaves de banco
+```bash
+DB_CONNECTION=mysql
+MYSQL_HOST=209.126.106.216
+MYSQL_PORT=3306
+MYSQL_USER=user_test
+MYSQL_PASSWORD=user123!
+MYSQL_DB_NAME=app_teste
+```
+4. Instale as dependências necessárias do front-end
+```bash
+npm i
+npm run dev
+```
+5. Abra no postman com a url http://127.0.0.1:3333
 
 
-## Instruções
-
-1. Acessar Projeto via Bitbucket
-
-2. Efetuar Clone projeto (localmente) - API feita em AdonisJS nela se encontra pronta com o model de grupos 
-
-3. Validar Acesso Banco de Dados conforme credenciais de acesso abaixo 
-
-4. Ao final do processo de Desenvolvimento, publicar projeto Github ou Bitbucket e disponilizar link do projeto e documentação 
+## Autores
+<a href="https://github.com/GiovaniGama">Giovani Gama</a> 🚀 

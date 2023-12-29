@@ -28,3 +28,4 @@ BaseModel.namingStrategy = new LiteralNamingStrategy();
 
 Route.resource('group', 'GroupController')
 Route.resource('contacts', 'ContactsController')
+Route.resource('contactsToGroup', 'ContactsToGroupController')
